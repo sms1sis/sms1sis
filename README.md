@@ -32,7 +32,7 @@ I enjoy building tools, solving interesting problems, and learning new technolog
 
 ## 📫 How to reach me
 - Email: [sadimahmudsajid@gmail.com](mailto:sadimahmudsajid@gmail.com)
-- Telegram: t.me/itachiofhiddenleaf
+- Telegram: [t.me/itachiofhiddenleaf](https://t.me/itachiofhiddenleaf)
 
 ---
 
