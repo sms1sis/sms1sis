@@ -18,12 +18,6 @@ I enjoy building tools, solving interesting problems, and learning new technolog
 
 ## 📂 Notable Projects
 
-- [areaofcircle](https://github.com/sms1sis/areaofcircle):  
-  Calculate the area of a circle using simple C code. A beginner-friendly project for those learning C.
-
-- [poliequver2](https://github.com/sms1sis/poliequver2):  
-  A polynomial equation solver written in C. Useful for basic mathematics and programming practice.
-
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):  
   A utility to compare the contents of two folders, written for Linux systems.
 
