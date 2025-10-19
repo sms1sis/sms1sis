@@ -18,9 +18,9 @@ I enjoy building tools, solving interesting problems, and learning new technolog
 
 ## 📂 Notable Projects
 
-- [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):  
+- [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
   A utility to compare the contents of two folders, written for Linux systems.
-- [Keybox-validation_check](https://github.com/sms1sis/Keybox-validation_check):
+- [Keybox-validation_check](https://github.com/sms1sis/Keybox-validation_check):   
   This is to check validity of keybox to pass play integrity.
 
 ## 📈 GitHub Stats
