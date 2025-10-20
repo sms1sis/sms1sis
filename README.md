@@ -1,5 +1,6 @@
 # Hi there, I'm Sajid Mahmud! 👋
-A Passionate Linux & Android Enthusiast from Bangladesh 🇧🇩
+
+**A Passionate Linux & Android Enthusiast from Bangladesh 🇧🇩**
 
 ### 🧰 About Me
 - 💻 Using **Kali Linux**, **Crdroid**, and **Termux**
