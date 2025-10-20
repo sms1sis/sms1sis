@@ -1,42 +1,43 @@
-# Hi there, I'm Sajid Mahmud! 👋
-
-I'm a passionate programmer from Bangladesh, focused on systems programming and open-source collaboration.  
-I enjoy building tools, solving interesting problems, and learning new technologies.
-
-## 🚀 About Me
-- 💻 I love solving problems with code and building open-source projects.
-- 🛠️ Interested in system programming, automation, and developer tools.
-- 🌱 Currently learning: **C**, **Rust**, and modern software engineering practices.
-- 🤝 Looking to collaborate on open-source projects and challenging coding problems.
-
-## 🧰 Languages & Tools
-![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
-
-## 📂 Notable Projects
-
-- [termux-setup](https://github.com/sms1sis/termux-setup):   
-  A comprehensive script to automate the setup of a complete development environment on Termux.
-- [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
-  A utility to compare the contents of two folders, written for Linux systems.
-- [Keybox-validation_check](https://github.com/sms1sis/Keybox-validation_check):   
-  This is to check validity of keybox to pass play integrity.
-- [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
-  This is to monitor Android Battery & UFS aka Storage health.
-
-## 📈 GitHub Stats
-![Sajid's GitHub stats](https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=default)
-
-## 📫 How to reach me
-- Email: [sadimahmudsajid@gmail.com](mailto:sadimahmudsajid@gmail.com)
-- Telegram: [t.me/itachiofhiddenleaf](https://t.me/itachiofhiddenleaf)
+<!-- Profile Header -->
+<h1 align="center">Hi 👋, I'm Sadi Mahmud Sajid (sms1sis)</h1>
+<h3 align="center">A Passionate Linux & Android Enthusiast from Bangladesh 🇧🇩</h3>
 
 ---
 
-<!---
-sadimahmud2004/sms1sis is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 🧰 About Me
+- 💻 Using **Kali Linux**, **Arch Linux**, and **Termux**
+- 🔥 Passionate about **custom ROMs**, **kernels**, and **system tweaks**
+- 🌱 Currently learning **bash scripting** **kernel building** **rust** **c** **python**
+- ⚙️ Fun fact: I break systems just to fix them again 😎
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=devillD" 
+    alt="sms1sis GitHub stats"
+    height="180em"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sms1sis&layout=compact&theme=devillD" 
+    alt="Top Languages"
+    height="180em"
+  />
+</p>
+
+---
+
+### 🧠 Tools & Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=bash,linux,androidstudio,git,vim,python,c,cpp" />
+</p>
+
+---
+
+### 💬 Connect With Me
+<p align="center">
+  <a href="https://github.com/sms1sis"><img src="https://img.shields.io/badge/GitHub-sms1sis-181717?style=for-the-badge&logo=github"></a>
+  <a href="mailto:sms1sis@gmail.com"><img src="https://img.shields.io/badge/Email-sms1sis@gmail.com-red?style=for-the-badge&logo=gmail"></a>
+</p>
