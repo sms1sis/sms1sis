@@ -27,9 +27,9 @@
   This is to monitor Android Battery & UFS aka Storage health.
 
 ## 📈 GitHub Stats
-![Sajid's GitHub stats](https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=transparent)
+![Sajid's GitHub stats](https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=radical)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sms1sis&layout=donut&theme=transparent)](https://github.com/sms1sis/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sms1sis&layout=donut&theme=radical)](https://github.com/sms1sis/github-readme-stats)
 
 ## 📫 How to reach me
 - Email: [sadimahmudsajid@gmail.com](mailto:sadimahmudsajid@gmail.com)
