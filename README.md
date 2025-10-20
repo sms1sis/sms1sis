@@ -1,13 +1,11 @@
 # Hi there, I'm Sajid Mahmud! 👋
+A Passionate Linux & Android Enthusiast from Bangladesh 🇧🇩
 
-I'm a passionate programmer from Bangladesh, focused on systems programming and open-source collaboration.  
-I enjoy building tools, solving interesting problems, and learning new technologies.
-
-## 🚀 About Me
-- 💻 I love solving problems with code and building open-source projects.
-- 🛠️ Interested in system programming, automation, and developer tools.
-- 🌱 Currently learning: **C**, **Rust**, and modern software engineering practices.
-- 🤝 Looking to collaborate on open-source projects and challenging coding problems.
+### 🧰 About Me
+- 💻 Using **Kali Linux**, **Crdroid**, and **Termux**
+- 🔥 Passionate about **custom ROMs**, **kernels**, and **system tweaks**
+- 🌱 Currently learning **bash scripting** **kernel building** **rust** **c** **python**
+- ⚙️ Fun fact: I break systems just to fix them again 😎
 
 ## 🧰 Languages & Tools
 ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white)
@@ -28,7 +26,9 @@ I enjoy building tools, solving interesting problems, and learning new technolog
   This is to monitor Android Battery & UFS aka Storage health.
 
 ## 📈 GitHub Stats
-![Sajid's GitHub stats](https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=default)
+![Sajid's GitHub stats](https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=transparent)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sms1sis&layout=donut&theme=transparent)](https://github.com/sms1sis/github-readme-stats)
 
 ## 📫 How to reach me
 - Email: [sadimahmudsajid@gmail.com](mailto:sadimahmudsajid@gmail.com)
