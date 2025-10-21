@@ -5,7 +5,7 @@
 ### 🧰 About Me
 - 💻 Using **Kali Linux**, **Crdroid**, and **Termux**
 - 🔥 Passionate about **custom ROMs**, **kernels**, and **system tweaks**
-- 🌱 Currently learning **bash scripting** **kernel building** **rust** **c** **python**
+- 🌱 Currently learning **bash scripting**, **kernel building**, **rust**, **c** and **python**
 - ⚙️ Fun fact: I break systems just to fix them again 😎
 
 ## 🧰 Languages & Tools
