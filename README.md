@@ -19,8 +19,8 @@
   A comprehensive script to automate the setup of a complete development environment on Termux.
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
   A utility to compare the contents of two folders, written for Linux systems.
-- [Keybox-validation_check](https://github.com/sms1sis/Keybox-validation_check):   
-  This is to check validity of keybox to pass play integrity.
+- [WiFi-Tweaks-RN10PRO](https://github.com/sms1sis/WiFi-Tweaks-RN10PRO):   
+  A KernelSU module to easily switch Qualcomm device's Wi-Fi driver configuration.
 - [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
   This is to monitor Android Battery & UFS aka Storage health.
 
