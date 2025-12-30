@@ -15,10 +15,10 @@
 
 ## 📂 Notable Projects
 
-- [termux-setup](https://github.com/sms1sis/termux-setup):   
-  A comprehensive script to automate the setup of a complete development environment on Termux.
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
   A utility to compare the contents of two folders, written in RUST.
+- [termux-setup](https://github.com/sms1sis/termux-setup):   
+  A comprehensive script to automate the setup of a complete development environment on Termux.
 - [WiFi-Tweaks-RN10PRO](https://github.com/sms1sis/WiFi-Tweaks-RN10PRO):   
   A KernelSU module to easily switch Qualcomm device's Wi-Fi driver configuration.
 - [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
