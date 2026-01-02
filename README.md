@@ -17,8 +17,6 @@
 
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
   A utility to compare the contents of two folders, written in RUST.
-- [WiFi-Config-Switcher](https://github.com/sms1sis/WiFi-Config-Switcher):   
-  A KernelSU module to easily switch Qualcomm device's Wi-Fi driver configuration.
 - [termux-setup](https://github.com/sms1sis/termux-setup):   
   A comprehensive script to automate the setup of a complete development environment on Termux & debian based proot-distro.
 - [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
