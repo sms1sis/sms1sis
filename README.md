@@ -15,6 +15,8 @@
 
 ## 📂 Notable Projects
 
+- [https_dns_proxy_rust](https://github.com/sms1sis/https_dns_proxy_rust):
+  A lightweight, asynchronous DNS-to-HTTPS (DoH) proxy written in Rust.
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
   A utility to compare the contents of two folders, written in RUST.
 - [termux-setup](https://github.com/sms1sis/termux-setup):   
