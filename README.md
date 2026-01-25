@@ -23,7 +23,7 @@
   A comprehensive script to automate the setup of a complete development environment on Termux & debian based proot-distro.
 - [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
   This is to monitor Android Battery & UFS aka Storage health.
-- [dexter](https://github.com/sms1sis/dexter):
+- [dexter](https://github.com/sms1sis/dexter):   
   A cli tool to analysis android apps optimisation profile.
 
 ## 📈 GitHub Stats
