@@ -24,7 +24,7 @@
 - [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
   This is to monitor Android Battery & UFS aka Storage health.
 - [dexter](https://github.com/sms1sis/dexter):   
-  A cli tool to analysis android apps optimisation profile.
+  A CLI tool to analyze Android app optimization profiles.
 
 ## 📈 GitHub Stats
 ![Sajid's GitHub stats](https://github-readme-stats.vercel.app/api?username=sms1sis&show_icons=true&theme=radical&rank_icon=github)
