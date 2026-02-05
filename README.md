@@ -15,6 +15,8 @@
 
 ## 📂 Notable Projects
 
+- [OxidOH](https://github.com/sms1sis/OxidOH):   
+  A Rust implementation of an Oblivious DNS over HTTPS (ODoH) proxy for Android.
 - [https_dns_proxy_rust](https://github.com/sms1sis/https_dns_proxy_rust):   
   A lightweight, asynchronous DNS-to-HTTPS (DoH) proxy written in Rust.
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
