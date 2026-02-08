@@ -23,8 +23,6 @@
   A utility to compare the contents of two folders, written in RUST.
 - [termux-setup](https://github.com/sms1sis/termux-setup):   
   A comprehensive script to automate the setup of a complete development environment on Termux & debian based proot-distro.
-- [ufs-battery_health](https://github.com/sms1sis/ufs-battery_health):   
-  This is to monitor Android Battery & UFS aka Storage health.
 - [dexter](https://github.com/sms1sis/dexter):   
   A CLI tool to analyze Android app optimization profiles.
 
