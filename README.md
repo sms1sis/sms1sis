@@ -26,6 +26,8 @@
   A lightweight, asynchronous DNS-to-HTTPS (DoH) proxy written in Rust.
 - [Compares_two_folders](https://github.com/sms1sis/Compares_two_folders):   
   A utility to compare the contents of two folders, written in RUST.
+- [WiFi-Config-Switcher](https://github.com/sms1sis/WiFi-Config-Switcher):   
+  This Magisk/KernelSU module lets you switch your device's Wi-Fi driver configuration.
 - [termux-setup](https://github.com/sms1sis/termux-setup):   
   A comprehensive script to automate the setup of a complete development environment on Termux & debian based proot-distro.
 - [dexter](https://github.com/sms1sis/dexter):   
