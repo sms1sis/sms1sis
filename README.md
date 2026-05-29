@@ -47,9 +47,15 @@
   <a href="mailto:sadimahmudsajid@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="youtube logo"  />
   </a>
+    <a href="https://www.facebook.com/sms1sis/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
+  </a>
+  <a href="https://www.instagram.com/sms1sis" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a>
 </div>
 
-## 👁️ Visitor Counter
+## 👀 Visitor Counter
 <p align="center">
   <img src="https://count.getloli.com/get/@sms1sis?theme=rule34" alt="Visitor Count" />
 </p>
