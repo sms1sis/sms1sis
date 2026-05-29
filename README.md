@@ -39,12 +39,20 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sms1sis&layout=donut&theme=radical)](https://github.com/sms1sis/github-readme-stats)
 
 ## 📫 How to reach me
-- Email: [sadimahmudsajid@gmail.com](mailto:sadimahmudsajid@gmail.com)
-- Telegram: [t.me/itachiofhiddenleaf](https://t.me/itachiofhiddenleaf)
+
+<div align="center">
+  <a href="https://t.me/itachiofhiddenleaf" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  />
+  </a>
+  <a href="mailto:sadimahmudsajid@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="youtube logo"  />
+  </a>
+</div>
+
+## 👁️ Visitor Counter
+<p align="center">
+  <img src="https://count.getloli.com/get/@sms1sis?theme=rule34" alt="Visitor Count" />
+</p>
 
 ---
 
-<!---
-sadimahmud2004/sms1sis is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
