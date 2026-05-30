@@ -1,0 +1,233 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Sajid's GitHub Profile Card</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&amp;display=swap');
+
+      .bg-main { fill: #0d0f14; }
+      .bg-card  { fill: #13161e; }
+      .bg-item  { fill: #1a1d27; }
+      .border   { stroke: #2a2d3a; stroke-width: 1; fill: none; }
+      .border-green { stroke: #39ff8e; stroke-width: 2; fill: none; }
+
+      .text-main  { fill: #e2e4f0; font-family: 'JetBrains Mono', monospace; }
+      .text-muted { fill: #6b7280; font-family: 'JetBrains Mono', monospace; }
+      .text-green { fill: #39ff8e; font-family: 'JetBrains Mono', monospace; }
+      .text-cyan  { fill: #00e5ff; font-family: 'JetBrains Mono', monospace; }
+      .text-amber { fill: #ffb347; font-family: 'JetBrains Mono', monospace; }
+      .text-name  { fill: #e2e4f0; font-family: 'JetBrains Mono', monospace; font-weight: 700; }
+
+      .cursor { fill: #39ff8e; animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .pulse { fill: #39ff8e; animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse {
+        0%,100% { opacity: 1; r: 4; }
+        50%      { opacity: 0.4; r: 6; }
+      }
+
+      .glow-border {
+        stroke-dasharray: 2200;
+        stroke-dashoffset: 2200;
+        animation: drawBorder 2s ease forwards;
+      }
+      @keyframes drawBorder {
+        to { stroke-dashoffset: 0; }
+      }
+
+      .fade-in { opacity: 0; animation: fadeIn 0.5s ease forwards; }
+      .f1 { animation-delay: 0.3s; }
+      .f2 { animation-delay: 0.5s; }
+      .f3 { animation-delay: 0.7s; }
+      .f4 { animation-delay: 0.9s; }
+      .f5 { animation-delay: 1.1s; }
+      .f6 { animation-delay: 1.3s; }
+      .f7 { animation-delay: 1.5s; }
+      .f8 { animation-delay: 1.7s; }
+      @keyframes fadeIn { to { opacity: 1; } }
+
+      .slide-in { opacity: 0; transform: translateX(-8px); animation: slideIn 0.4s ease forwards; }
+      @keyframes slideIn { to { opacity: 1; transform: translateX(0); } }
+
+      .lang-bash   { fill: #1a1f14; stroke: #2d4a1e; }
+      .lang-c      { fill: #141a20; stroke: #1e3a50; }
+      .lang-rust   { fill: #1f1614; stroke: #4a2a1e; }
+      .lang-python { fill: #1a1a14; stroke: #3a3a1e; }
+    </style>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2d3a" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Corner glow -->
+    <radialGradient id="cornerGlow" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#39ff8e" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#39ff8e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cornerGlow2" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="800" height="400" rx="16" class="bg-main"/>
+  <rect width="800" height="400" rx="16" fill="url(#grid)"/>
+  <rect width="800" height="400" rx="16" fill="url(#cornerGlow)"/>
+  <rect width="800" height="400" rx="16" fill="url(#cornerGlow2)"/>
+
+  <!-- Animated border -->
+  <rect x="1.5" y="1.5" width="797" height="397" rx="15" fill="none" stroke="#39ff8e" stroke-width="1.5" opacity="0.4" class="glow-border" filter="url(#glow)"/>
+
+  <!-- Window dots -->
+  <circle cx="28" cy="28" r="6" fill="#ff5f57" class="fade-in f1"/>
+  <circle cx="48" cy="28" r="6" fill="#febc2e" class="fade-in f1"/>
+  <circle cx="68" cy="28" r="6" fill="#28c840" class="fade-in f1"/>
+  <text x="400" y="32" text-anchor="middle" font-size="11" class="text-muted fade-in f1" letter-spacing="2">README.md</text>
+
+  <!-- Divider line under topbar -->
+  <line x1="20" y1="48" x2="780" y2="48" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f1"/>
+
+  <!-- ── LEFT COLUMN ── -->
+
+  <!-- Name -->
+  <text x="36" y="90" font-size="30" font-weight="700" class="text-name fade-in f2">Sajid</text>
+  <rect x="174" y="65" width="3" height="28" rx="1.5" class="cursor fade-in f2"/>
+
+  <!-- Tagline -->
+  <text x="36" y="115" font-size="11" class="text-muted fade-in f2" letter-spacing="1">// system hacker · rom builder · low-level tinkerer</text>
+
+  <!-- Bio box -->
+  <rect x="36" y="132" width="380" height="72" rx="6" class="bg-card fade-in f3"/>
+  <rect x="36" y="132" width="3" height="72" rx="1.5" fill="#39ff8e" class="fade-in f3"/>
+  <text x="50" y="153" font-size="12" class="text-muted fade-in f3">Linux dweller. Android tinkerer. I build</text>
+  <text x="50" y="171" font-size="12" class="fade-in f3">
+    <tspan class="text-cyan">cli tools</tspan>
+    <tspan class="text-muted">, </tspan>
+    <tspan class="text-cyan">android apps</tspan>
+    <tspan class="text-muted">, patch </tspan>
+    <tspan fill="#ffb347">kernels</tspan>
+    <tspan class="text-muted">,</tspan>
+  </text>
+  <text x="50" y="189" font-size="12" class="fade-in f3">
+    <tspan fill="#ffb347">root modules</tspan>
+    <tspan class="text-muted"> &amp; scripts that </tspan>
+    <tspan fill="#39ff8e">just work.</tspan>
+  </text>
+
+  <!-- Dev loop label -->
+  <text x="36" y="228" font-size="10" class="text-muted fade-in f4" letter-spacing="2">DEV LOOP</text>
+  <line x1="104" y1="224" x2="416" y2="224" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f4"/>
+
+  <!-- Loop items -->
+  <!-- flash -->
+  <rect x="36" y="238" width="90" height="28" rx="6" class="bg-item fade-in f4" stroke="#2a2d3a" stroke-width="0.5"/>
+  <circle cx="52" cy="252" r="4" fill="#5ba8e0" class="fade-in f4"/>
+  <text x="62" y="256" font-size="11" class="text-muted fade-in f4">flash</text>
+  <!-- arrow -->
+  <text x="132" y="256" font-size="14" fill="#39ff8e" class="fade-in f4">→</text>
+  <!-- explode -->
+  <rect x="152" y="238" width="98" height="28" rx="6" class="bg-item fade-in f5" stroke="#2a2d3a" stroke-width="0.5"/>
+  <circle cx="168" cy="252" r="4" fill="#e07850" class="fade-in f5"/>
+  <text x="178" y="256" font-size="11" class="text-muted fade-in f5">explode</text>
+  <!-- arrow -->
+  <text x="256" y="256" font-size="14" fill="#39ff8e" class="fade-in f5">→</text>
+  <!-- debug -->
+  <rect x="276" y="238" width="90" height="28" rx="6" class="bg-item fade-in f5" stroke="#2a2d3a" stroke-width="0.5"/>
+  <circle cx="292" cy="252" r="4" fill="#7ec850" class="fade-in f5"/>
+  <text x="302" y="256" font-size="11" class="text-muted fade-in f5">debug</text>
+  <!-- arrow -->
+  <text x="372" y="256" font-size="14" fill="#39ff8e" class="fade-in f5">→</text>
+  <!-- repeat -->
+  <rect x="392" y="238" width="24" height="28" rx="6" class="bg-item fade-in f5" stroke="#2a2d3a" stroke-width="0.5"/>
+  <text x="398" y="257" font-size="12" fill="#b48eff" class="fade-in f5">↺</text>
+
+  <!-- Languages label -->
+  <text x="36" y="302" font-size="10" class="text-muted fade-in f6" letter-spacing="2">LANGUAGES</text>
+  <line x1="118" y1="298" x2="416" y2="298" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f6"/>
+
+  <!-- Bash badge -->
+  <rect x="36" y="312" width="60" height="26" rx="6" class="lang-bash fade-in f6" stroke-width="1"/>
+  <circle cx="50" cy="325" r="4" fill="#7ec850" class="fade-in f6"/>
+  <text x="60" y="329" font-size="11.5" fill="#7ec850" class="fade-in f6">Bash</text>
+
+  <!-- C badge -->
+  <rect x="104" y="312" width="44" height="26" rx="6" class="lang-c fade-in f6" stroke-width="1"/>
+  <circle cx="118" cy="325" r="4" fill="#5ba8e0" class="fade-in f6"/>
+  <text x="128" y="329" font-size="11.5" fill="#5ba8e0" class="fade-in f6">C</text>
+
+  <!-- Rust badge -->
+  <rect x="156" y="312" width="60" height="26" rx="6" class="lang-rust fade-in f7" stroke-width="1"/>
+  <circle cx="170" cy="325" r="4" fill="#e07850" class="fade-in f7"/>
+  <text x="180" y="329" font-size="11.5" fill="#e07850" class="fade-in f7">Rust</text>
+
+  <!-- Python badge -->
+  <rect x="224" y="312" width="76" height="26" rx="6" class="lang-python fade-in f7" stroke-width="1"/>
+  <circle cx="238" cy="325" r="4" fill="#d4c850" class="fade-in f7"/>
+  <text x="248" y="329" font-size="11.5" fill="#d4c850" class="fade-in f7">Python</text>
+
+  <!-- Status -->
+  <circle cx="42" cy="370" r="4" class="pulse fade-in f8"/>
+  <text x="54" y="374" font-size="11" class="text-muted fade-in f8">actively breaking things</text>
+  <text x="416" y="374" font-size="10" fill="#2a2d3a" text-anchor="end" class="fade-in f8">// it's not a bug. it's a learning opportunity.</text>
+
+  <!-- Divider vertical -->
+  <line x1="440" y1="60" x2="440" y2="380" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f2"/>
+
+  <!-- ── RIGHT COLUMN: STACK ── -->
+  <text x="464" y="88" font-size="10" class="text-muted fade-in f3" letter-spacing="2">STACK</text>
+  <line x1="508" y1="84" x2="764" y2="84" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f3"/>
+
+  <!-- OS card -->
+  <rect x="464" y="100" width="148" height="66" rx="8" class="bg-card fade-in f3" stroke="#2a2d3a" stroke-width="0.5"/>
+  <text x="480" y="120" font-size="18">🐧</text>
+  <text x="506" y="120" font-size="10" class="text-muted fade-in f3" letter-spacing="1">OS</text>
+  <text x="480" y="140" font-size="12" class="text-main fade-in f3">Linux · CrDroid</text>
+  <text x="480" y="156" font-size="10" fill="#6b7280" class="fade-in f3">daily driver</text>
+
+  <!-- Kernel card -->
+  <rect x="622" y="100" width="148" height="66" rx="8" class="bg-card fade-in f4" stroke="#2a2d3a" stroke-width="0.5"/>
+  <text x="638" y="120" font-size="18">⚙️</text>
+  <text x="664" y="120" font-size="10" class="text-muted fade-in f4" letter-spacing="1">KERNEL</text>
+  <text x="638" y="140" font-size="12" class="text-main fade-in f4">build · patch · brick</text>
+  <text x="638" y="156" font-size="10" fill="#6b7280" class="fade-in f4">occasionally on purpose</text>
+
+  <!-- CLI card -->
+  <rect x="464" y="178" width="148" height="66" rx="8" class="bg-card fade-in f5" stroke="#2a2d3a" stroke-width="0.5"/>
+  <text x="480" y="198" font-size="18">📦</text>
+  <text x="506" y="198" font-size="10" class="text-muted fade-in f5" letter-spacing="1">BUILDS</text>
+  <text x="480" y="218" font-size="12" class="text-main fade-in f5">CLI tools · Apps</text>
+  <text x="480" y="234" font-size="10" fill="#6b7280" class="fade-in f5">android · terminal</text>
+
+  <!-- Mods card -->
+  <rect x="622" y="178" width="148" height="66" rx="8" class="bg-card fade-in f5" stroke="#2a2d3a" stroke-width="0.5"/>
+  <text x="638" y="198" font-size="18">🔧</text>
+  <text x="664" y="198" font-size="10" class="text-muted fade-in f5" letter-spacing="1">MODS</text>
+  <text x="638" y="218" font-size="12" class="text-main fade-in f5">Root · Magisk</text>
+  <text x="638" y="234" font-size="10" fill="#6b7280" class="fade-in f5">custom modules</text>
+
+  <!-- Currently label -->
+  <text x="464" y="276" font-size="10" class="text-muted fade-in f6" letter-spacing="2">CURRENTLY</text>
+  <line x1="542" y1="272" x2="764" y2="272" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f6"/>
+
+  <!-- Currently items -->
+  <rect x="464" y="286" width="6" height="14" rx="2" fill="#39ff8e" class="fade-in f6"/>
+  <text x="478" y="297" font-size="12" class="text-main fade-in f6">going deeper into kernel internals</text>
+
+  <rect x="464" y="310" width="6" height="14" rx="2" fill="#00e5ff" class="fade-in f7"/>
+  <text x="478" y="321" font-size="12" class="text-main fade-in f7">fighting Rust's borrow checker</text>
+
+  <rect x="464" y="334" width="6" height="14" rx="2" fill="#ffb347" class="fade-in f8"/>
+  <text x="478" y="345" font-size="12" class="text-main fade-in f8">automating everything that holds still</text>
+
+  <!-- Bottom border line -->
+  <line x1="20" y1="382" x2="780" y2="382" stroke="#2a2d3a" stroke-width="0.5" class="fade-in f8"/>
+  <text x="764" y="395" text-anchor="end" font-size="10" class="text-muted fade-in f8">github.com/sms1sis</text>
+</svg>
