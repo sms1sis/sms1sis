@@ -1,5 +1,7 @@
 <div align="center">
+  
 ![About Me](./profile-card.svg)
+
 </div>
 
 ## 🧰 Languages & Tools
