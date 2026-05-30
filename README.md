@@ -1,11 +1,8 @@
-# Hi there, I'm a Passionate Linux & Android Enthusiast👋
+<div align="center">
 
-### 🧰 About Me
+![About Me](./profile-card.svg)
 
-- 💻 Using **Linux distro** and **Crdroid**
-- 🔥 Passionate about **custom ROMs**, **kernels**, and **system tweaks**
-- 🌱 Currently learning **bash scripting**, **kernel building**, **rust**, **c** and **python**
-- ⚙️ Fun fact: I break systems just to fix them again 😎
+</div>
 
 ## 🧰 Languages & Tools
 
