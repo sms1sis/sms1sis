@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://sms1sis.github.io/profile-card.svg" />
+  <object data="https://sms1sis.github.io/profile-card.svg" type="image/svg+xml"></object>
 </div>
 
 ## 🧰 Languages & Tools
