@@ -1,5 +1,5 @@
 <div align="center">
-  <object data="https://sms1sis.github.io/profile-card.svg" type="image/svg+xml"></object>
+![About Me](./profile-card.svg)
 </div>
 
 ## 🧰 Languages & Tools
